@@ -1,5 +1,5 @@
 [Desktop Entry]
 Type=Application
 Name=CODRONE_QGroundControl
-Exec=/home/jarl/qgroundcontrol/build/QGroundControl-x86_64.AppImage
+Exec=/home/jarl/codrone_qgroundcontrol/build/QGroundControl-x86_64.AppImage
 Terminal=false
