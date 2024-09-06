@@ -116,7 +116,7 @@ Rectangle {
         property bool   _userBrandingIndoor:    _userBrandImageIndoor.length != 0
         property bool   _userBrandingOutdoor:   _userBrandImageOutdoor.length != 0
         property string _brandImageIndoor:      brandImageIndoor()
-        property string _brandImageOutdoor:     brandImageOutdoor()
+        property string _brandImageOutdoor:     brandImageIndoor()
 
         function brandImageIndoor() {
             if (_userBrandingIndoor) {
