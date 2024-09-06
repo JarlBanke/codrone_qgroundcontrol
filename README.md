@@ -14,7 +14,7 @@ git submodule update --recursive
 Copy "CODRONE_QGroundControl.desktop" to desktop.<br/>
 Edit file and change Exec path.<br/>
 Select icon from "codrone_qgroundcontrol/resources/icons".<br/>
-Allow Run as a program.<br/>
+Allow executing file as a program.<br/>
 Allow Launching.<br/>
 [![Releases](https://img.shields.io/github/release/mavlink/QGroundControl.svg)](https://github.com/mavlink/QGroundControl/releases)
 
