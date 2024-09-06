@@ -16,6 +16,8 @@ Edit file and change Exec path.<br/>
 Select icon from "codrone_qgroundcontrol/resources/icons".<br/>
 Allow executing file as a program.<br/>
 Allow Launching.<br/>
+
+-----------------------------------
 [![Releases](https://img.shields.io/github/release/mavlink/QGroundControl.svg)](https://github.com/mavlink/QGroundControl/releases)
 
 *QGroundControl* (QGC) is an intuitive and powerful ground control station (GCS) for UAVs.
