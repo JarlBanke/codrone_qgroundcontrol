@@ -1,5 +1,21 @@
 # QGroundControl Ground Control Station
-
+```
+git clone --recursive -j8 git@github.com:JarlBanke/qgroundcontrol.git
+```
+```
+cd qgroundcontrol
+```
+```
+git submodule update --recursive
+```
+```
+./deploy/docker/run-docker.sh
+```
+Copy "CODRONE_QGroundControl.desktop" to desktop.<br/>
+Edit file and change Exec path.<br/>
+Select icon from "qgroundcontrol/resources/icons".<br/>
+Allow Run as a program.<br/>
+Allow Launching.<br/>
 [![Releases](https://img.shields.io/github/release/mavlink/QGroundControl.svg)](https://github.com/mavlink/QGroundControl/releases)
 
 *QGroundControl* (QGC) is an intuitive and powerful ground control station (GCS) for UAVs.
