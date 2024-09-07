@@ -423,7 +423,7 @@ Item {
             confirmDialog.title = takeoffTitle
             confirmDialog.message = takeoffMessage
             confirmDialog.hideTrigger = Qt.binding(function() { return !showTakeoff })
-            // guidedValueSlider.visible = true
+            guidedValueSlider.visible = true
             break;
         case actionStartMission:
             showImmediate = false
@@ -563,8 +563,8 @@ Item {
             _activeVehicle.guidedModeLand()
             break
         case actionTakeoff:
-            // var valueInMeters = _unitsConversion.appSettingsVerticalDistanceUnitsToMeters(sliderOutputValue)
-            var valueInMeters = 30
+            var valueInMeters = _unitsConversion.appSettingsVerticalDistanceUnitsToMeters(sliderOutputValue)
+            // var valueInMeters = 30
             _activeVehicle.guidedModeTakeoff(valueInMeters)
             break
         case actionResumeMission:
