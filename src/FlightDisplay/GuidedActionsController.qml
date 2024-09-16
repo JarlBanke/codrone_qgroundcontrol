@@ -201,9 +201,11 @@ Item {
         if (actionCode === actionTakeoff) {
             guidedValueSlider.setupSlider(
                 GuidedValueSlider.SliderType.Takeoff,
-                _unitsConversion.metersToAppSettingsVerticalDistanceUnits(_activeVehicle.minimumTakeoffAltitudeMeters()),
+                // _unitsConversion.metersToAppSettingsVerticalDistanceUnits(_activeVehicle.minimumTakeoffAltitudeMeters()),
+                _flyViewSettings.guidedMinimumAltitude.value,
                 _flyViewSettings.guidedMaximumAltitude.value,
-                _unitsConversion.metersToAppSettingsVerticalDistanceUnits(_activeVehicle.minimumTakeoffAltitudeMeters()),
+                // _unitsConversion.metersToAppSettingsVerticalDistanceUnits(_activeVehicle.minimumTakeoffAltitudeMeters()),
+                _flyViewSettings.guidedMaximumAltitude.value,
                 qsTr("Height (rel)"))
         } else if (actionCode === actionChangeSpeed) {
             if (_fixedWing) {
